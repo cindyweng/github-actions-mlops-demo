@@ -9,8 +9,8 @@ dependencies:
   - matplotlib=3.2.1
   - pip:
 #     - --no-deps
-    - pip==20.2.2
-    - azureml-defaults==1.1.5 #--install-option="--no-deps"
-    - azureml-dataprep[pandas,fuse]==1.4.0 #--install-option="--no-deps"
+#     - pip==20.2.2
+    - azureml-defaults==1.1.5 #--install-option="--use-deprecated=legacy-resolver"
+    - azureml-dataprep[pandas,fuse]==1.4.0 #--install-option="--use-deprecated=legacy-resolver"
 channels:
   - conda-forge
