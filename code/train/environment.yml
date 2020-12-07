@@ -8,8 +8,8 @@ dependencies:
   - pandas=1.0.3
   - matplotlib=3.2.1
   - pip:
-    - pip --upgrade
-    - azureml-defaults==1.1.5 --use-deprecated=legacy-resolver
-    - azureml-dataprep[pandas,fuse]=1.4.0 --use-deprecated=legacy-resolver
+    - pip=20.2.2
+    - azureml-defaults==1.1.5
+    - azureml-dataprep[pandas,fuse]=1.4.0
 channels:
   - conda-forge
